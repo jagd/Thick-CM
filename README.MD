@@ -15,7 +15,6 @@ For instance, in linux:
 ```
 mkdir -p ~/texmf/fonts/type1/public/cm-super
 cp build/pfb/*.pfb ~/texmf/fonts/type1/public/cm-super
-updmap-user
 ```
 
 ## See also 
