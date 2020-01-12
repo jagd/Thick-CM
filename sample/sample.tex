@@ -1,0 +1,42 @@
+%pdflatex
+\documentclass[10pt,a5paper]{article}
+\usepackage{geometry}
+\usepackage{graphicx}
+\pdfcompresslevel9
+\pdfminorversion5
+\pdfobjcompresslevel3
+\pdfinfoomitdate=1
+\pdftrailerid{}
+\pdfsuppressptexinfo=-1
+
+\setlength{\parindent}{0pt}
+
+\newcommand{\FontCombDemo}{%
+  \textup{\textrm{TextUpRM}} \textsl{TextSlRM}\\\textbf{TextBfRM} \textbf{\textsl{TextBfSlRM}}\\[1ex]%
+  % \textitup{TextUpIT}
+  \textit{TextSlIT} \textit{\textbf{TextBfIT}}\\[1ex]%
+  \textsc{TextUpSC} \textsl{\textsc{TextSlSC}}\\[1ex]\%
+}
+
+\begin{document}
+
+{\tiny\FontCombDemo}
+
+{\scriptsize\FontCombDemo}
+
+{\footnotesize\FontCombDemo}
+
+{\small\FontCombDemo}
+
+{\normalsize\FontCombDemo}
+
+{\large\FontCombDemo}
+
+{\Large\FontCombDemo}
+
+{\LARGE\FontCombDemo}
+
+{\huge\FontCombDemo}
+
+{\Huge\FontCombDemo}
+\end{document}
